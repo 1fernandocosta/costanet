@@ -1,0 +1,110 @@
+.site   {
+    width: 1024px;
+    height: 2048px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    position: relative;
+    background-image: url();
+}
+
+.foto-fernando   {
+    display: block;
+    position: relative;
+    width: 382px;
+    height: 739px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.sobre  {
+    background-color: #fff;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: red;
+    font-weight: 200;
+    font-size: 30px;
+    padding: 20px 20px;
+    border-radius: 15px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fundo-site {
+    background-image: url(imagens/fundo.png);
+    width: 1024px;
+    height: 1757px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+
+.menu   {
+    margin-top: -710px;
+    margin-left: 659px;
+    margin-right: 0px;
+}
+
+ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 999;
+    margin: 0;
+    padding: 0;
+    }
+    
+    li {
+        list-style: none; 
+        margin: 0px;
+        padding: 0px;
+        display: inline;
+    }
+
+    li a {
+        padding: 5px 10px; 
+        margin: 0;
+        background: rgb(255, 255, 255);
+        text-decoration: none;
+        color:rgb(35, 0, 236);
+        /* cantos arredondados */
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+    li a:hover {
+        background: rgb(255, 255, 255);
+        color: rgb(255, 0, 0); 
+    }
+    
+.servicos   {
+    display: block;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 120px;
+}
+
+.copyright  {
+color: #fff;
+position: relative;
+margin-top: 1160px;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+text-decoration: none;
+}
+.copyright a  {
+    text-decoration: none;
+    }
+    .copyright a:hover  {
+        text-decoration: none;
+        }
+        .copyright a:visited  {
+            text-decoration: none;
+            color: #fff;
+            }
